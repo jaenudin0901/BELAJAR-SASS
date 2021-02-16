@@ -1,0 +1,27 @@
+// CSS Variables
+// :root {
+//   --primary-color: #f4f1de;
+//   --secondary-color: #f2cc8f;
+//   --text-color: blue;
+// }
+
+// body {
+//   background-color: var(--primary-color);
+// }
+// h1 {
+//   color: var(--text-color);
+// }
+
+// SASS Variables
+
+$secondary-color: #f2cc8f;
+$text-color: blue;
+$primary-color: green;
+
+body {
+  $primary-color: #f4f1de;
+  background-color: $primary-color;
+}
+h1 {
+  color: $primary-color;
+}
